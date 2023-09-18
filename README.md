@@ -36,8 +36,8 @@
 <span><img src="https://img.shields.io/badge/Zeplin-ffbe22?style=flat"/></span>
 <span><img src="https://img.shields.io/badge/Figma-f24e1e?style=flat&logo=figma&logoColor=white"/></span><br/> -->
 
-## 📝 <a href="https://jhi1234.github.io/cordova/index.html">과제 제출용 웹페이지</a>
-##### 강의 과제 제출 용도로 제작된 웹페이지입니다. 해당 페이지에서 날짜를 클릭하면 과제를 확인할 수 있습니다..
+## 📝 <a href="https://jhi1234.github.io/cordova/index.html">Assignment List</a>
+##### 강의 과제 제출 용도로 제작된 웹페이지입니다. 해당 페이지에서 날짜를 클릭하면 과제를 확인할 수 있습니다.
 #### README
 ##### <a href="https://github.com/JHI1234/cordova/edit/master/0912/README.md">2023년 09월 12일 레포트</a>
 
