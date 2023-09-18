@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12)
+---
 ### 📝 피그마 소개 - 설치 - 사용법 
 ---
 ![슬라이드1](https://github.com/JHI1234/cordova/assets/106959823/5ca85835-55db-4944-a740-0ffb85494c8a)
@@ -14,6 +14,3 @@
 ---
 ##### 강의 과제로 제작된 웹사이트입니다.<br>가상의 개발 회사 웹페이지 제작을 주제로 Figma를 통해 메인페이지와 서브페이지를 제작하였습니다.
 
-
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&section=footer)
