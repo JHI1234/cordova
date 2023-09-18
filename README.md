@@ -39,7 +39,7 @@
 ## 📝 <a href="https://jhi1234.github.io/cordova/index.html">Assignment List</a>
 ##### 강의 과제 제출 용도로 제작된 웹페이지입니다. 해당 페이지에서 날짜를 클릭하면 과제를 확인할 수 있습니다.
 #### README
-##### <a href="https://github.com/JHI1234/cordova/edit/master/0912/README.md">2023년 09월 12일 레포트</a>
+##### <a href="0912/README.md">2023년 09월 12일 레포트</a>
 
 
 
