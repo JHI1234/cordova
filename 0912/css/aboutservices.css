@@ -1,0 +1,354 @@
+.code-crafters-about-services,
+.code-crafters-about-services * {
+    box-sizing: border-box;
+}
+
+.code-crafters-about-services {
+    background: #ffffff;
+    width: 1920px;
+    height: 2020px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangle-4 {
+    background: rgba(0, 0, 0, 0.85);
+    width: 1920px;
+    height: 101px;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+}
+
+.home {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1021px;
+    top: 35px;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1142px;
+    top: 35px;
+}
+
+.services {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1265px;
+    top: 35px;
+}
+
+.portfolio {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1418px;
+    top: 35px;
+}
+
+.team {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1569px;
+    top: 35px;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1685px;
+    top: 35px;
+}
+
+.code-crafters-inc {
+    text-align: left;
+    font: 900 35px "Inter", sans-serif;
+    position: absolute;
+    left: 142px;
+    top: 37px;
+}
+
+.code-crafters-inc-span {
+    color: #00ffd1;
+    font: 900 35px "Inter", sans-serif;
+}
+
+.code-crafters-inc-span2 {
+    color: #ffffff;
+    font: 900 35px "Inter", sans-serif;
+}
+
+.about-code-crafters-inc {
+    color: #000000;
+    text-align: left;
+    font: 600 45px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 270px);
+    top: 216px;
+}
+
+.line-1 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 285px;
+}
+
+.our-services {
+    color: #000000;
+    text-align: left;
+    font: 600 45px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 140px);
+    top: 1026px;
+}
+
+.line-2 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 99px);
+    top: 1095px;
+}
+
+.project-maintenance {
+    color: #000000;
+    text-align: left;
+    font: 600 32px/32px "Inter", sans-serif;
+    position: absolute;
+    left: 969px;
+    top: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.redug-lagre-dolor-sit-amet-consectetur-adipisicing-elit-itaque-quas-officiis-iure-aspernatur-sit-adipisci-quaerat-unde-at-neque-redug-lagre-dolor-sit-amet-consectetur-adipisicing-elit-itaque-quas-officiis-iure {
+    color: #000000;
+    text-align: left;
+    font: 300 32px/32px "Inter", sans-serif;
+    position: absolute;
+    left: 969px;
+    top: 436px;
+    width: 705px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q {
+    width: 660px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 714px);
+    top: 365px;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur {
+    color: #000000;
+    text-align: left;
+    font: 600 25px "Inter", sans-serif;
+    position: absolute;
+    left: 1014px;
+    top: 690px;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur2 {
+    color: #000000;
+    text-align: left;
+    font: 600 25px "Inter", sans-serif;
+    position: absolute;
+    left: 1014px;
+    top: 757px;
+}
+
+.check-circle {
+    position: absolute;
+    left: 961px;
+    top: 748px;
+    overflow: visible;
+}
+
+.check-circle2 {
+    position: absolute;
+    left: 961px;
+    top: 681px;
+    overflow: visible;
+}
+
+.briefcase {
+    position: absolute;
+    left: 340px;
+    top: 1165px;
+    overflow: visible;
+}
+
+.expert-coder {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 291px;
+    top: 1312px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 167px;
+    top: 1367px;
+    width: 473px;
+}
+
+.creative-designer {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 809px;
+    top: 1312px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by2 {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 724px;
+    top: 1367px;
+    width: 473px;
+}
+
+.wordpress-developer {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 1343px;
+    top: 1312px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by3 {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 1290px;
+    top: 1367px;
+    width: 473px;
+}
+
+.social-marketer {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 271px;
+    top: 1702px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by4 {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 167px;
+    top: 1757px;
+    width: 473px;
+}
+
+.seo-expert {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 868px;
+    top: 1702px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by5 {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 724px;
+    top: 1757px;
+    width: 473px;
+}
+
+._24-7-support {
+    color: #000000;
+    text-align: left;
+    font: 600 35px "Inter", sans-serif;
+    position: absolute;
+    left: 1405px;
+    top: 1702px;
+}
+
+.will-have-to-make-sure-the-prototype-looks-finished-by-inserting-text-or-photo-make-sure-the-prototype-looks-finished-by6 {
+    color: #000000;
+    text-align: center;
+    font: 400 22px "Inter", sans-serif;
+    position: absolute;
+    left: 1281px;
+    top: 1757px;
+    width: 473px;
+}
+
+.playlist-add-check {
+    position: absolute;
+    left: 913px;
+    top: 1176px;
+    overflow: visible;
+}
+
+.developer-board {
+    position: absolute;
+    left: 1478px;
+    top: 1176px;
+    overflow: visible;
+}
+
+.calendar-today {
+    position: absolute;
+    left: 1470px;
+    top: 1566px;
+    overflow: visible;
+}
+
+.cached {
+    position: absolute;
+    left: 913px;
+    top: 1566px;
+    overflow: visible;
+}
+
+.language {
+    position: absolute;
+    left: 356px;
+    top: 1566px;
+    overflow: visible;
+}

@@ -1,0 +1,259 @@
+.code-crafters-portfolio-team,
+.code-crafters-portfolio-team * {
+    box-sizing: border-box;
+}
+
+.code-crafters-portfolio-team {
+    background: #ffffff;
+    width: 1920px;
+    height: 2247px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangle-4 {
+    background: rgba(0, 0, 0, 0.85);
+    width: 1920px;
+    height: 101px;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+}
+
+.home {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1021px;
+    top: 35px;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1142px;
+    top: 35px;
+}
+
+.services {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1265px;
+    top: 35px;
+}
+
+.portfolio {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1418px;
+    top: 35px;
+}
+
+.team {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1569px;
+    top: 35px;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1685px;
+    top: 35px;
+}
+
+.code-crafters-inc {
+    text-align: left;
+    font: 900 35px "Inter", sans-serif;
+    position: absolute;
+    left: 142px;
+    top: 37px;
+}
+
+.code-crafters-inc-span {
+    color: #00ffd1;
+    font: 900 35px "Inter", sans-serif;
+}
+
+.code-crafters-inc-span2 {
+    color: #ffffff;
+    font: 900 35px "Inter", sans-serif;
+}
+
+.our-portfolio {
+    color: #000000;
+    text-align: left;
+    font: 600 45px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 139px);
+    top: 194px;
+}
+
+.line-2 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 263px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q {
+    width: 471px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 808px);
+    top: 343px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q2 {
+    width: 472px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 236px);
+    top: 343px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q3 {
+    width: 471px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - -337px);
+    top: 343px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q4 {
+    width: 471px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 808px);
+    top: 833px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q5 {
+    width: 472px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 236px);
+    top: 833px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q6 {
+    width: 471px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - -337px);
+    top: 833px;
+}
+
+.our-special-team {
+    color: #000000;
+    text-align: left;
+    font: 600 45px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 190px);
+    top: 1410px;
+}
+
+.line-1 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 1479px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q7 {
+    width: 383px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 656px);
+    top: 1559px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q8 {
+    width: 383px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - 191px);
+    top: 1559px;
+}
+
+.unsplash-u-2-ru-4-qbxa-5-q9 {
+    width: 383px;
+    height: 440px;
+    position: absolute;
+    left: calc(50% - -274px);
+    top: 1559px;
+}
+
+.jhon-mickel {
+    color: #000000;
+    text-align: left;
+    font: 600 38px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 110px);
+    top: 2036px;
+}
+
+.coo {
+    color: #000000;
+    text-align: center;
+    font: 400 30px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 34px);
+    top: 2093px;
+}
+
+.hyein-jeong {
+    color: #000000;
+    text-align: left;
+    font: 600 38px "Inter", sans-serif;
+    position: absolute;
+    left: 381px;
+    top: 2036px;
+}
+
+.ceo {
+    color: #000000;
+    text-align: center;
+    font: 400 30px "Inter", sans-serif;
+    position: absolute;
+    left: 464px;
+    top: 2093px;
+}
+
+.aaron-choi {
+    color: #000000;
+    text-align: left;
+    font: 600 38px "Inter", sans-serif;
+    position: absolute;
+    left: 1324px;
+    top: 2036px;
+}
+
+.cto {
+    color: #000000;
+    text-align: center;
+    font: 400 30px "Inter", sans-serif;
+    position: absolute;
+    left: 1394px;
+    top: 2093px;
+}

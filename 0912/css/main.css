@@ -1,0 +1,153 @@
+.code-crafters-main,
+.code-crafters-main * {
+    box-sizing: border-box;
+}
+
+.code-crafters-main {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangle-1 {
+    background: rgba(0, 0, 0, 0.85);
+    flex-shrink: 0;
+    width: 1920px;
+    height: 101px;
+    position: relative;
+}
+
+.unsplash-wn-sh-dp-37-v-b-4 {
+    flex-shrink: 0;
+    width: 1920px;
+    height: 1097px;
+    position: relative;
+}
+
+.rectangle-2 {
+    background: rgba(0, 0, 0, 0.35);
+    flex-shrink: 0;
+    width: 1920px;
+    height: 979px;
+    position: absolute;
+    left: 0px;
+    top: 101px;
+}
+
+.innovate-create-elevate {
+    color: #ffffff;
+    text-align: left;
+    font: 900 65px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 413px);
+    top: 490px;
+}
+
+.transforming-ideas-into-excellence {
+    color: #ffffff;
+    text-align: left;
+    font: 400 35px "Inter", sans-serif;
+    position: absolute;
+    left: calc(50% - 293px);
+    top: 574px;
+}
+
+.rectangle-3 {
+    background: #27d2b3;
+    border-radius: 50px;
+    flex-shrink: 0;
+    width: 189px;
+    height: 47px;
+    position: absolute;
+    left: 865px;
+    top: 643px;
+}
+
+.get-started {
+    color: #ffffff;
+    text-align: left;
+    font: 700 24px/100% "Lato", sans-serif;
+    position: absolute;
+    left: 898px;
+    top: 655px;
+    width: max-content;
+    height: 23.02px;
+}
+
+.home {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1021px;
+    top: 35px;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1142px;
+    top: 35px;
+}
+
+.services {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1265px;
+    top: 35px;
+}
+
+.portfolio {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1418px;
+    top: 35px;
+}
+
+.team {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1569px;
+    top: 35px;
+}
+
+.contact {
+    color: #ffffff;
+    text-align: left;
+    font: 500 24px "Inter", sans-serif;
+    position: absolute;
+    left: 1685px;
+    top: 35px;
+}
+
+.code-crafters-inc {
+    text-align: left;
+    font: 900 35px "Inter", sans-serif;
+    position: absolute;
+    left: 142px;
+    top: 37px;
+}
+
+.code-crafters-inc-span {
+    color: #00ffd1;
+    font: 900 35px "Inter", sans-serif;
+}
+
+.code-crafters-inc-span2 {
+    color: #ffffff;
+    font: 900 35px "Inter", sans-serif;
+}
