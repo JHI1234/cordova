@@ -15,3 +15,7 @@
 ---
 ##### 강의 과제로 제작된 웹사이트입니다.<br>가상의 개발 회사 웹페이지 제작을 주제로 Figma를 통해 메인 페이지와 서브 페이지를 제작하였습니다.
 
+![main](https://github.com/JHI1234/cordova/assets/106959823/19f4ab9a-d03d-4a1b-a71b-147843b3ab93)
+![aboutservices](https://github.com/JHI1234/cordova/assets/106959823/2b8dbc7f-b9d5-4acc-843e-40c90120a907)
+![portfolioteams](https://github.com/JHI1234/cordova/assets/106959823/d22bb451-c532-46e4-a74a-9333ed1dca21)
+
