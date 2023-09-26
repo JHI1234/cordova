@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>홍길동의 이력서</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+    <script src="https://kit.fontawesome.com/5f42398762.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="nav">
+            <div class="title"><a href="#">개발자 포트폴리오</a></div>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#archiving">Archiving</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Top</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section id="about" data-aos="fade-right">
+            <h2>ABOUT ME</h2>
+            <div class="about">
+                <div>
+                    <img src="./images/profile.png" alt="정혜인의 얼굴사진">
+                </div>
+                <div id="div1">
+                    <table class="aboutTable">
+                        <tbody>
+                            <tr id="myname">
+                                <th>이름</th>
+                                <td id="korname">정혜인</td>
+                                <td id="engname">Jeong Hyein</td>
+                            </tr>
+                            <tr>
+                                <th>생년월일</i></th>
+                                <td>1998.09.14</td>
+                            </tr>
+                            <tr>
+                                <th>직업</th>
+                                <td>대학생</td>
+                            </tr>
+                            <tr>
+                                <th>거주지</th>
+                                <td>부산광역시 연제구</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="div2">
+                    <p class="desc">
+                        나는 어떤 개발자가 되어야 할까?<br>
+                        개발 공부를 하면서 고민해왔습니다.<br><br>
+                        개발자로서의 여러 모습을 상상했지만,<br>
+                        결국 이 일을 즐겨야 멀리갈 수 있겠다는 생각을 했습니다.<br><br>
+                        언제나 재미있고 의미 있는 개발을 하며<br>
+                        계속 공부하고 새로운 도전을 멈추지 않는 개발자가 되겠습니다.
+        
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="contact" data-aos="fade-left">
+            <h2>CONTACT</h2>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i><a href="tel:010-9056-9357">010-9056-9357</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:in5678@kakao.com"
+                        target="_blank">gpdls6357@gmail.com</a></li>
+                <li><i class="fa-brands fa-github"></i><a href="https://jhi1234.github.io/" target="_blank">@JHI1234</a></li>
+                <!-- <li><i class="fa-brands fa-facebook"></i><a href="https://www.instagram.com/cxrrxt__/" target="_blank"> @cxrrxt__</a></li> -->
+            </ul>
+        </section>
+        
+        <section id="skill" data-aos="fade-right">
+            <h2>Skills</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>php</li>
+                <li>JAVA</li>
+                <li>JSP</li>
+                <li>C#</li>
+                <li>Python</li>
+            </ol>
+        </section>
+ 
+        <section id="projects" data-aos="fade-left">
+            <h2>PROJECTS</h2>
+            <ol>
+                <li>
+                    <h3>2023 JAN - JSP 프로젝트</h3>
+                    <p>부산경상대학교 컴퓨터정보•메타버스게임과 학과 홈페이지 제작</p>
+                    <a class="pagebutton" href="https://github.com/JHI1234/itbsks_temppage">
+                        <img src="./images/tmp1.png" alt="학과 홈페이지 메인">
+                    </a>
+                    </li>
+                <hr>
+                <li>
+                    <h3>2023 JUN - PHP 프로젝트</h3>
+                    <p>온라인 지식공유 플랫폼 <지식창고> 제작</p>
+                    <a class="pagebutton" href="https://github.com/JHI1234/knowledgewarehouse">
+                        <img src="./images/tmp2.png" alt="지식창고 홈페이지 메인">
+                    </a>
+                </li>
+            </ol>
+        </section>
+    </div>
+    <footer>
+        <p>&copy;2023. Jeong Hyein All rights reserved.<br>
+            본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.
+        </p>
+    </footer>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1200,
+            once: 'true'
+        });
+    </script>
+</body>
+</html>
