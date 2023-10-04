@@ -1,0 +1,170 @@
+@import url('https://fonts.cdnfonts.com/css/montelgo-script');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+html a {
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: 'Pretendard-Regular';
+}
+.filter{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.title{
+    height: 100vh;
+    font-family: 'Montelgo Script', sans-serif;
+    color: #fff;
+}
+.title a{
+    position: absolute;
+    margin-bottom: 30px;
+    font-size: 6rem;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #fff;
+    left: 13%;
+    top: 65%;
+}
+.main{
+    margin: 0 auto;
+    width: 75%;
+}
+.main .nav{
+    padding-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px 0 0 20px;
+}
+.main #intro{
+    padding: 20px 10px 15px 10px;
+}
+.main #intro a{
+    font-family: 'Montelgo Script', sans-serif;
+    font-size: 3rem;
+}
+.main a{
+    color: #fff;
+}
+.menu{
+    margin: 0px 20px;
+    width: max-content;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.menu a{
+    font-size: 1.1rem;
+    font-family: 'Pretendard-Regular';    
+}
+.contents{
+    display: flex;
+}
+.content{
+    background-color: #fff;
+    flex-grow: 1;
+    position: relative;
+}
+.section1,
+aside{
+    padding: 20px 50px;
+}
+.section1 h3{
+    font-weight: 500;
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+#pic-container,
+.section1 video{
+    margin-left: 40px;
+}
+#pic-container img{
+    height: 200px;
+}
+.con1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.con1 p {
+    line-height: 1.7rem;
+}
+#profile{
+    height: 250px;
+    padding-right: 50px;
+}
+#desc{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#edu tr th{
+    padding: 5px 20px;   
+    text-align: right;
+}
+#edu tr td{
+    text-align: left;
+}
+.info-title{
+    font-weight: 600;
+}
+#korName{
+    font-size: 1.3rem;
+    padding: 0 20px;
+    text-align: right;
+}
+#engName{
+    color: #747474;
+}
+.contact{
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    background-color: #ccc; 
+    width: -webkit-fill-available;
+}
+.contact a{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.contact a i{
+    text-align: center;
+    background-color: #000;
+    width: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+footer {
+    background-color: #000;
+    position: relative;
+}
+footer p{
+    padding: 25px 0;
+    margin: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: .7rem;
+    line-height: 1.3rem;
+}
