@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>HTML5 개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="./asset/css/intro.css">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://kit.fontawesome.com/5f42398762.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div data-role="page" id="page1" class="container">
+		<div class="filter">
+			<div data-role="content" data-fullscreen="true" data-position="fixed">
+				<div id="top" class="title">
+					<a href="#page2" data-transition="slideup">
+						My Portfoilo.
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="page2" class="container filter">
+		<div class="main">
+			<div data-role="header" data-fullscreen="true" data-position="fixed" id="intro">
+				<a href="#page1" data-transition="slidedown">My Portfoilo.</a>
+			</div>
+			<div data-role="content" class="contents">
+				<div data-role="navbar" class="nav">
+					<span class="menu"><a href="#page1" data-transition="slidedown"> 메인 </a></span>
+					<span class="menu"><a href="#page2" data-transition="none"> 소개 </a></span>
+					<span class="menu"><a href="#page3" data-transition="none"> 경력 </a></span>
+					<span class="menu"><a href="#page4" data-transition="none"> 학술 </a></span>
+					<span class="menu"><a href="#page5" data-transition="none"> 인적 </a></span>
+				</div>
+				<div class="content">
+					<section class="section1">
+						<h3>INTRODUCTION</h3>
+						<div class="con1">
+							<img id="profile" src="./asset/img/profile.png" />
+							<p>
+								<span id="desc">능력있는 풀스택 개발자가 목표인 정혜인입니다!</span>
+								<br>
+								<br>개발에 있어 제가 가장 중요하게 생각하는 것은 '사용자 경험'입니다.<br>
+								사용자가 제가 만든 웹사이트나 애플리케이션을 사용할 때, 그들이 어떤 경험을 하게 될지를 상상하며 개발합니다.
+								<br>이를 위해 프론트엔드와 백엔드 모두에 심혈을 기울여,
+								사용자 중심의 서비스를 만들기 위해 노력합니다.
+								<br><br>또한, 협업의 가치를 아주 중요하게 생각합니다.
+								<br>좋은 소프트웨어는 혼자서 만들어지는 것이 아니라 팀원 간의 긴밀한 소통과 협력에서 비롯된다고 믿습니다.
+								<br>다양한 배경과 전문성을 가진 사람들과 함께 일하는 과정에서 많은 것을 배우고, 이를 바탕으로 자신만의 성장도 추구합니다.
+								<br>
+								<br>언제나 재미있고 의미 있는 개발을 하며,<br>계속 공부하고 새로운 도전을 멈추지 않는 개발자가 되겠습니다.
+							</p>
+						</div>
+					</section>
+					<aside class="contact">
+						<a href="mailto:hyein.jjjj@gmail.com">
+							<i class="fa-solid fa-at"></i>
+						</a>
+						<a href="https://www.instagram.com/hyeinj/">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="https://github.com/JHI1234">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</aside>
+				</div>
+			</div>
+			<div data-role="footer" data-fullscreen="true" data-position="fixed" class="footer">
+				<p>©2023. Jeong Hyein All rights reserved.<br>
+					본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="page3" class="container filter">
+		<div class="main">
+			<div data-role="header" data-fullscreen="true" data-position="fixed" id="intro">
+				<a href="#top">My Portfoilo.</a>
+			</div>
+			<div data-role="content" class="contents">
+				<div data-role="navbar" class="nav">
+					<span class="menu"><a href="#page1" data-transition="slidedown"> 메인 </a></span>
+					<span class="menu"><a href="#page2" data-transition="none"> 소개 </a></span>
+					<span class="menu"><a href="#page3" data-transition="none"> 경력 </a></span>
+					<span class="menu"><a href="#page4" data-transition="none"> 학술 </a></span>
+					<span class="menu"><a href="#page5" data-transition="none"> 인적 </a></span>
+				</div>
+				<div class="content">
+					<section class="section1">
+						<h3>세미나(연수)</h3>
+						<ul>
+							<li>2012. 4 빅 데이터 응용 세미나 참석</li>
+							<li>2013. 3~6 IT 멘토링 사업 참여</li>
+						</ul>
+						<div id="pic-container">
+							<img id="pic1" class="semi-pic" src="./asset/img/seminar1.jpg" />
+							<img id="pic2" class="semi-pic" src="./asset/img/seminar2.jpg" />
+							<img id="pic3" class="semi-pic" src="./asset/img/seminar3.jpg" />
+						</div>
+						<h3>인턴쉽</h3>
+						<ul>
+							<li>2013.7~8 하계 인턴쉽 참여(퓨처스게임)</li>
+						</ul>
+						<h3>봉사</h3>
+						<ul>
+							<li>2011.7 농어촌 봉사활동</li>
+							<li>2012.8 취약계층 IT 방문교육서비스 참여</li>
+						</ul>
+					</section>
+					<aside class="contact">
+						<a href="mailto:hyein.jjjj@gmail.com">
+							<i class="fa-solid fa-at"></i>
+						</a>
+						<a href="https://www.instagram.com/hyeinj/">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="https://github.com/JHI1234">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</aside>
+				</div>
+			</div>
+			<div data-role="footer" data-fullscreen="true" data-position="fixed" class="footer">
+				<p>©2023. Jeong Hyein All rights reserved.<br>
+					본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="page4" class="container filter">
+		<div class="main">
+			<div data-role="header" data-fullscreen="true" data-position="fixed" id="intro">
+				<a href="#top">My Portfoilo.</a>
+			</div>
+			<div data-role="content" class="contents">
+				<div data-role="navbar" class="nav">
+					<span class="menu"><a href="#page1" data-transition="slidedown"> 메인 </a></span>
+					<span class="menu"><a href="#page2" data-transition="none"> 소개 </a></span>
+					<span class="menu"><a href="#page3" data-transition="none"> 경력 </a></span>
+					<span class="menu"><a href="#page4" data-transition="none"> 학술 </a></span>
+					<span class="menu"><a href="#page5" data-transition="none"> 인적 </a></span>
+				</div>
+				<div class="content">
+					<section class="section1">
+						<h3>PROJECTS</h3>
+						<ul>
+							<li>레고 NXT 실습</li>
+						</ul>
+						<video id="vid" autoplay controls preload="metadata">
+							<source src="video.ogv" type="video/ogv">
+							</source>
+							<source src="./asset/vid/video.mp4" type="video/mp4">
+							</source>
+							<source src="video.webm" type="video/webm">
+							</source>
+							브라우저에서 비디오 파일을 지원하지 않습니다. <br />
+						</video>
+						<h3>QUALIFICATIONS</h3>
+						<ul>
+							<li>정보처리기사1급</li>
+							<li>DAP 자격증</li>
+						</ul>
+						<h3>AWARDS</h3>
+						<ul>
+							<li>교내 소프트웨어공모전 금상</li>
+							<li>포트폴리오 경진대회 장려상</li>
+						</ul>
+					</section>
+					<aside class="contact">
+						<a href="mailto:hyein.jjjj@gmail.com">
+							<i class="fa-solid fa-at"></i>
+						</a>
+						<a href="https://www.instagram.com/hyeinj/">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="https://github.com/JHI1234">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</aside>
+				</div>
+			</div>
+			<div data-role="footer" data-fullscreen="true" data-position="fixed" class="footer">
+				<p>©2023. Jeong Hyein All rights reserved.<br>
+					본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="page5" class="container filter">
+		<div class="main">
+			<div data-role="header" data-fullscreen="true" data-position="fixed" id="intro">
+				<a href="#top">My Portfoilo.</a>
+			</div>
+			<div data-role="content" class="contents">
+				<div data-role="navbar" class="nav">
+					<span class="menu"><a href="#page1" data-transition="slidedown"> 메인 </a></span>
+					<span class="menu"><a href="#page2" data-transition="none"> 소개 </a></span>
+					<span class="menu"><a href="#page3" data-transition="none"> 경력 </a></span>
+					<span class="menu"><a href="#page4" data-transition="none"> 학술 </a></span>
+					<span class="menu"><a href="#page5" data-transition="none"> 인적 </a></span>
+				</div>
+				<div class="content">
+					<section class="section1">
+						<h3>PERSONAL INFORMATION</h3>
+						<p>
+							<span id="korName" class="info-title">정혜인</span><span id="engName">Jeong Hyein</span>
+						</p>
+						<table id="edu">
+							<tr>
+								<th>생년월일</th>
+								<td>1998. 09. 14</td>
+							</tr>
+							<tr>
+								<th>거주지</th>
+								<td>부산광역시 연제구</td>
+							</tr>
+							<tr>
+								<th>최종학력</th>
+								<td>부산경상대학교 컴퓨터정보융합과 재학</td>
+							</tr>
+					
+						</table>
+					</section>
+					<aside class="contact">
+						<a href="mailto:hyein.jjjj@gmail.com">
+							<i class="fa-solid fa-at"></i>
+						</a>
+						<a href="https://www.instagram.com/hyeinj/">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="https://github.com/JHI1234">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</aside>
+				</div>
+			</div>
+			<div data-role="footer" data-fullscreen="true" data-position="fixed" class="footer">
+				<p>©2023. Jeong Hyein All rights reserved.<br>
+					본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
