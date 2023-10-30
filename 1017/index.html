@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>jQuery Mobile</title>
+	<title>부산경상대학교 컴퓨터정보•메타버스게임과 소개 앱 페이지</title>
+	<link rel="icon" type="image/png" href="bsks.ico">
 	<link rel="stylesheet" href="./lib/css/jquery.mobile-1.4.5.min.css"/>
-	<link rel="stylesheet" href="./lib/css/bsks.css">
+	<link rel="stylesheet" href="./lib/css/style.css">
 	<script src="./lib/js/jquery-1.11.1.min.js"></script>
 	<script src="./lib/js/jquery.mobile-1.4.5.min.js"></script>
 </head>
@@ -17,12 +18,13 @@
 			<h1>부산경상대학교 컴퓨터정보•메타버스게임과 소개 앱</h1>
 		</div>
 		<div data-role="content" style="text-align:center">
-				<img class="logo" src="./lib/img/부산경상대학교로고.png">
+				<img class="logo" src="./lib/img/컴퓨터정보메타버스게임과로고.png">
 			<ul data-role="listview" data-inset="true">
 				<li><a href="#intro">컴퓨터정보•메타버스게임과 소개</a></li>
 				<li><a href="#movie" data-rel="dialog">컴퓨터정보•메타버스게임과 영상</a></li>
 				<li><a href="#gallery">컴퓨터정보•메타버스게임과 사진</a></li>
 				<li><a href="#map">컴퓨터정보•메타버스게임과 찾아오시는길</a></li>
+				<li><a href="#song" data-rel="dialog">부산경상대학교 교가</a></li>
 			</ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-theme="a">
@@ -37,7 +39,7 @@
 		</div>
 		<div data-role="content">
 				<div  style="text-align:center">
-					<img class="logo" src="./lib/img/부산경상대학교로고.png">
+					<img class="logo" src="./lib/img/컴퓨터정보메타버스게임과로고.png">
 				</div>
 				<div class="desc">
 					<ol>
@@ -122,13 +124,28 @@
 		</div>
 		<div data-role="content" class="mainbg">
 			<div class="ui-bar ui-bar-a">부산경상대학교 멀티미디어관</div><br />
-			<li>
+			<div class="iframe1">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.965189511056!2d129.0960590117775!3d35.18242015709951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568933c72442519%3A0x464cfe7951fbed4e!2z67aA7IKw6rK97IOB64yA7ZWZ6rWQIOupgO2LsOuvuOuUlOyWtOq0gA!5e0!3m2!1sko!2skr!4v1698699429474!5m2!1sko!2skr"
-					width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+					style="border:0;" allowfullscreen="" loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade">
 				</iframe>
-			</li>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a">
+			<h1>컴퓨터정보•메타버스게임과 정혜인</h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="song">
+		<div data-role="header">
+			<h1>부산경상대학교 교가</h1>
+		</div>
+		<div data-role="content">
+			<audio controls width="100%" preload="metadata">
+				<source src="./lib/song/schoolsong.mp3" type="audio/mp3">
+			</audio>
+			<img src="./lib/song/song.gif" alt="" width="100%">
 		</div>
 	</div>
 </div>	
