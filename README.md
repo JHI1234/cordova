@@ -18,3 +18,4 @@
 | 2023-09-26 | <a href="https://jhi1234.github.io/cordova/0926/mintro.html">Report</a> | <a href="0926/README.md">README</a> |
 | 2023-10-10 | <a href="https://jhi1234.github.io/cordova/1010/main.html">Report</a>   | <a href="1010/README.md">README</a> |
 | 2023-10-17 | <a href="https://jhi1234.github.io/cordova/1017/index.html">Report</a>  | <a href="1017/README.md">README</a> |
+| 2023-11-07 | <a href="https://jhi1234.github.io/cordova/1107/index.html">Report</a>  | <a href="1107/README.md">README</a> |
