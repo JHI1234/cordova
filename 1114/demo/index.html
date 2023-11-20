@@ -278,8 +278,8 @@
 
     <div data-role="content" data-theme="e">
       <h4>도서 검색</h4>
-      <input class="btitle" type="text" value="세이노의 가르침">
-      <input type="button" onclick="callBookInfo();">
+      <input id="btitle" type="text" value="세이노의 가르침">
+      <input id="search" type="button" value="검색">
 
       <div class="container">
         <div class="thumbnail"></div>
@@ -288,19 +288,23 @@
       <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
       <script>
-        let btitle = $(".btitle").value;
-        function callBookInfo() {
-          $.ajax({
-            method: "GET",
-            url: "https://dapi.kakao.com/v3/search/book?target=title",
-            data: { query: btitle },
-            headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
+        $(document).ready(function (){
+          $("#search").click(function () {
+            function callBookInfo() {
+              $.ajax({
+                method: "GET",
+                url: "https://dapi.kakao.com/v3/search/book?target=title",
+                data: { query: $("#btitle").val() },
+                headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
+              })
+                .done(function (msg) {
+                  $(".desc").append(msg.documents[2].title);
+                  $(".thumbnail").append('<img src="' + msg.documents[2].thumbnail + '"/>');
+                });
+            }
           })
-            .done(function (msg) {
-              $(".desc").append(msg.documents[2].title);
-              $(".thumbnail").append('<img src="' + msg.documents[2].thumbnail + '"/>');
-            });
-        }
+        })
+
       </script>
     </div>
   </div>
