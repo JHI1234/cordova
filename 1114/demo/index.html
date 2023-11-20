@@ -240,17 +240,19 @@
       <a data-iconpos="notext" href="#panel2" data-role="button" data-icon="flat-man"></a>
     </div>
 
-    <div id="map" style="width:500px;height:400px;"></div>
-      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9598dd3241f8471e74e494611100b14b"></script>
-      <script>
-        var container = document.getElementById('map');
-        var options = {
-          center: new kakao.maps.LatLng(33.450701, 126.570667),
-          level: 3
-        };
+    <div data-role="content" data-theme="e">
+      <div id="map" class="map"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9598dd3241f8471e74e494611100b14b"></script>
+        <script>
+          var container = document.getElementById('map');
+          var options = {
+            center: new kakao.maps.LatLng(33.450701, 126.570667),
+            level: 3
+          };
 
-        var map = new kakao.maps.Map(container, options);
-      </script>
+          var map = new kakao.maps.Map(container, options);
+        </script>
+    </div>
   </div>
 
   <div data-role="page" id="ksearch">
@@ -274,24 +276,26 @@
       <a data-iconpos="notext" href="#panel2" data-role="button" data-icon="flat-man"></a>
     </div>
 
-    <div class="container">
-      <div class="thumbnail"></div>
-      <p class="desc"></p>
+    <div data-role="content" data-theme="e">
+      <div class="container">
+        <div class="thumbnail"></div>
+        <p class="desc"></p>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+      <script>
+        $.ajax({
+          method: "GET",
+          url: "https://dapi.kakao.com/v3/search/book?target=title",
+          data: { query: "미움받을 용기" },
+          headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
+        })
+        .done(function (msg) {
+          $(".desc").append(msg.documents[2].title);
+          $(".thumbnail").append('<img src="' + msg.documents[2].thumbnail + '"/>');
+        });
+      </script>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"></script>
-    <script>
-      $.ajax({
-        method: "GET",
-        url: "https://dapi.kakao.com/v3/search/book?target=title",
-        data: { query: "미움받을 용기" },
-        headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
-      })
-      .done(function (msg) {
-        $(".desc").append(msg.documents[2].title);
-        $(".thumbnail").append('<img src="' + msg.documents[2].thumbnail + '"/>');
-      });
-    </script>
   </div>
 
   <script src="js/jquery-1.11.1.min.js"></script>
