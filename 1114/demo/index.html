@@ -285,32 +285,30 @@
         <div class="thumbnail"></div>
         <p class="desc"></p>
       </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      <script src="./js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
       <script>
         $(document).ready(function () {
           $("#search").click(function () {
-            function callBookInfo() {
-              $.ajax({
-                method: "GET",
-                url: "https://dapi.kakao.com/v3/search/book?target=title",
-                data: { query: $("#btitle").val() },
-                headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
-              })
-              .done(function (msg) {
-                if (msg.documents.length > 0) {
-                  $(".desc").text(msg.documents[0].title);
-                  $(".thumbnail").html('<img src="' + msg.documents[0].thumbnail + '"/>');
-                } else {
-                  $(".desc").text("No information found");
-                  $(".thumbnail").html('');
-                }
-              }).fail(function (xhr, status, error) {
-                console.error(xhr, status, error);
-                $(".desc").text("Failed to fetch book information");
+            $.ajax({
+              method: "GET",
+              url: "https://dapi.kakao.com/v3/search/book?target=title",
+              data: { query: $("#btitle").val() },
+              headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
+            })
+            .done(function (msg) {
+              if (msg.documents.length > 0) {
+                $(".desc").text(msg.documents[0].title);
+                $(".thumbnail").html('<img src="' + msg.documents[0].thumbnail + '"/>');
+              } else {
+                $(".desc").text("No information found");
                 $(".thumbnail").html('');
-              });
-            }
+              }
+            }).fail(function (xhr, status, error) {
+              console.error(xhr, status, error);
+              $(".desc").text("Failed to fetch book information");
+              $(".thumbnail").html('');
+            });
           })
         })
 
