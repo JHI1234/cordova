@@ -152,6 +152,10 @@ body {
     }
 }
 
+.map{
+    width: 400px;
+    height: 500px;
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

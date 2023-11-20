@@ -285,7 +285,7 @@
         method: "GET",
         url: "https://dapi.kakao.com/v3/search/book?target=title",
         data: { query: "미움받을 용기" },
-        headers: { Authorization: "KakaoAK {9aa4a112d96d64a33dd3c70a6b9504b1}" }
+        headers: { Authorization: "KakaoAK 9aa4a112d96d64a33dd3c70a6b9504b1" }
       })
       .done(function (msg) {
         $(".desc").append(msg.documents[2].title);
