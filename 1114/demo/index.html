@@ -125,11 +125,6 @@
       <div class="container marketing">
         <div class="row">
           <div class="col-lg-4 border rounded">
-            <h4>카카오 로그인</h4>
-            <p>카카오계정 하나로 간편하게 여러분의 서비스에 로그인 할 수 있도록 하는 서비스입니다. 누구나 가지고 있는 카카오 계정으로 빠르고 안전하게 고객을 만들어 보세요.</p>
-            <p><a class="btn btn-secondary" href="#klogin" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 border rounded">
             <h4>지도/로컬</h4>
             <p>언제나 최신 정보를 제공하는 카카오맵의 API를 통해 지도, 위치, 장소와 관련된 정보를 다양한 위치 기반 서비스에 활용해 보세요.</p>
             <p><a class="btn btn-secondary" href="#kmap" role="button">View details &raquo;</a></p>
@@ -197,28 +192,6 @@
     </div>
   </div>
 
-  <div data-role="page" id="klogin">
-    <div data-role="panel" id="panel1" data-position="left" data-theme="e" data-display="push">
-      <ul data-role="listview" data-inset="true">
-        <li><a href="#main">메인</a></li>
-        <li><a href="#product">제품</a></li>
-        <li><a href="#tool">도구</a></li>
-      </ul>
-    </div>
-    
-    <div data-role="panel" id="panel2" data-position="right" data-theme="e" data-display="push">
-      <ul data-role="listview" data-inset="true">
-        <li><a href="#">로그인</a></li>
-      </ul>
-    </div>
-    
-    <div data-role="header" data-theme="e">
-      <a data-iconpos="notext" href="#panel1" data-role="button" data-icon="flat-menu"></a>
-      <h1 href="#main">kakao developers</h1>
-      <a data-iconpos="notext" href="#panel2" data-role="button" data-icon="flat-man"></a>
-    </div>
-  </div>
-
   <div data-role="page" id="kmap">
     <div data-role="panel" id="panel1" data-position="left" data-theme="e" data-display="push">
       <ul data-role="listview" data-inset="true">
@@ -283,7 +256,10 @@
 
       <div class="container">
         <div class="thumbnail"></div>
-        <p class="desc"></p>
+        <p class="title"></p>
+        <p class="authors"></p>
+        <p class="publisher"></p>
+        <p class="contents"></p>
       </div>
       <script src="./js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
@@ -298,11 +274,17 @@
             })
             .done(function (msg) {
               if (msg.documents.length > 0) {
-                $(".desc").text(msg.documents[0].title);
                 $(".thumbnail").html('<img src="' + msg.documents[0].thumbnail + '"/>');
+                $(".title").text(msg.documents[0].title);
+                $(".authors").text(msg.documents[0].authors);
+                $(".publisher").text(msg.documents[0].publisher);
+                $(".contents").text(msg.documents[0].contents);
               } else {
-                $(".desc").text("No information found");
                 $(".thumbnail").html('');
+                $(".title").text("No information found");
+                $(".authors").text("No information found");
+                $(".publisher").text("No information found");
+                $(".contents").text("No information found");
               }
             }).fail(function (xhr, status, error) {
               console.error(xhr, status, error);
